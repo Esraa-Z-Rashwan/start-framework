@@ -1,0 +1,24 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  
+}
+/* Navbar */
+.nav-link.active{
+  background-color: #1ABC9C;
+  border-radius: 8px;
+}
+
+/* Form */
+.form-control:focus {
+  color: #212529;
+  background-color: var(--bs-body-bg);
+  outline: none;
+  box-shadow: none !important;
+
+}
+
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label{
+  color: #1ABC9C;
+}
+

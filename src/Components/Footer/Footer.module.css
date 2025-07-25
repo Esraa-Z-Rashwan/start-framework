@@ -1,0 +1,22 @@
+.icon {
+    font-size: 16px;
+    color: white;
+}
+
+.iconCircle{
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainBg{
+    background-color: #2C3D4F;
+}
+
+.copyBg{
+    background-color: #1A252F;
+}
